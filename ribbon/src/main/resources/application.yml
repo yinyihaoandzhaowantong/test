@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8750/eureka/
+server:
+  port: 8753
+spring:
+  application:
+    name: ribbon
