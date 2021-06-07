@@ -17,7 +17,7 @@ public class FeignController {
     @Autowired
     FeignService feignService;
 
-    @RequestMapping(value = "/feign",method = RequestMethod.GET)
+    @RequestMapping(value = "/getHome",method = RequestMethod.GET)
     public String getService1Home1(String name){
         return feignService.getService1Home1("feign---"+name);
     }
