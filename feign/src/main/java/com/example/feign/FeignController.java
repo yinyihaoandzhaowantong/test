@@ -19,6 +19,6 @@ public class FeignController {
 
     @RequestMapping(value = "/feign",method = RequestMethod.GET)
     public String getService1Home1(String name){
-        return feignService.getService1Home1(name);
+        return feignService.getService1Home1("feign---"+name);
     }
 }

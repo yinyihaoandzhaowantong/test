@@ -1,10 +1,10 @@
-package com.example.eureka;
+package com.example.zuul;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EurekaApplicationTests {
+class ZuulApplicationTests {
 
     @Test
     void contextLoads() {

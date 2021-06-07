@@ -18,6 +18,6 @@ public class HelloControl {
 
     @RequestMapping("/getHome")
     public String getHome(@RequestParam String name){
-        return helloService.getHome(name);
+        return helloService.getHome("ribbon---"+name);
     }
 }
